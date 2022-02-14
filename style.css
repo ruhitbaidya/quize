@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.rulsepart{
+    border-radius:10px;
+}
+.title-part{
+    border-bottom:3px solid #a3a3a3;
+}
+.title-part h2{
+    margin-bottom:25px;
+}
+.rulse-part ol li{
+    font-size:14px;
+}
+.qlast{
+    border-top:3px solid #a3a3a3;
+    padding-top:20px;
+}
+.quizelite{
+    font-size:30px;
+    font-weight:700;
+}
+.main-quize{
+    border-radius:10px;
+}
+.barline{
+    height:5px;
+    background:blue;
+    margin-top:25px;
+}
+.nosl{
+    padding:10px 0;
+    font-size:25px;
+    font-weight:600;
+}
+.option{
+    border-bottom:3px solid #a3a3a3;
+    padding-bottom:20px;
+    margin-bottom:20px;
+}
+.option p{
+    padding:10px;
+    background:silver;
+    border-radius:5px;
+    color:rgb(7, 7, 7);
+}
+small{
+    border-radius:5px;
+}
+.need{
+    border-radius:5px;
+}
+.option i{
+    float:right;
+    padding:5px;
+}
+.iconw{
+    font-size:80px;
+    color:#fff;
+}
+.text{
+    color:#fff;
+}
+.text i{
+    color:tomato
+}
+.userInfo,
+.nextbtn,
+.part2,
+.part3,
+.part4{
+    display:none;
+}
+.disabled{
+    pointer-events: none;
+}

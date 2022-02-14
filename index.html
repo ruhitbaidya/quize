@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Quize</title>
+
+</head>
+<body class="bg-dark">
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <!-- quize 1st part -->
+                    <article class=" part1 mt-5 pt-5 text-center">
+                        <h2 class="text-light mt-5">Quize</h2>
+                        <button class="btn btn-outline-light mt-5">Start Quize</button>
+                    </article>
+
+                    <!-- quize 2nd part -->
+
+                        <article class=" part2 bg-light rulsepart mt-5 p-5 text-center">
+                            <div class="title-part">
+                                <h2>Quize Rulaw</h2>
+                            </div>
+                            <div class="rulse-part text-left px-5 my-4">
+                                <ol>
+                                    <li>This Quize For You.</li>
+                                    <li>if you agree play this quize pleace select continue.</li>
+                                    <li>you can give answar 1 queaction in 15 seconds if did not select any option in 15 second can not select any iption again.</li>
+                                    <li>when you finish this game last page you can show how point you find to this games.</li>
+                                    <li>so let's enjoy this.</li>
+                                </ol>
+                            </div>
+                            <div class="qlast">
+                                <button class="part2ex btn btn-outline-dark mr-1">Quize Exit</button>
+                                <button class="part2str btn btn-outline-dark ml-1">Start Quize</button>
+                            </div>
+                        </article>
+                        <!-- user name collect -->
+
+                        <article class="userInfo bg-light p-4 mt-5">
+                            <h4 class="text-center mb-5">Enter Your Information</h4>
+                            <label for="fname">First Name:
+                            </label>
+                            <input class="form-control Finame" type="text" required>
+                            <label for="name">Last Name:
+                            </label>
+                            <input class="form-control Liname" type="text" required>
+
+                            <button class="btn btn-info letgo mt-4">Let's Start</button>
+                        </article>
+
+                        <!-- quize part main quesition -->
+
+                        <article class="part3 main-quize bg-light mt-5 p-4">
+                            <div class="qhead">
+                                <span class="quizelite">Quize</span>
+                                <span class="need float-right bg-dark text-light p-2">Time Left <small class="bg-danger p-2">00</small></span>
+                            </div>
+                            <div class="barline"></div>
+
+                            <div class="queactionwrite px-3">
+                                <div class="nosl">
+                                start
+                                </div>
+                                <div class="option px-4 mt-3"> 
+                                    
+                                    <!-- <p>3 . Lorem ipsum dolor sit amet. <i class="fa-solid fa-xmark"></i></p>
+                                    <p>4 . Lorem ipsum dolor sit amet. <i class="fa-solid fa-check"></i></p> -->
+                                </div>
+                            </div>
+                            <div class="qfooter text-center">
+                                <span class="mr-5">Quize <span class="runoptio"></span> of <span class="fixedop"></span></span>
+                                <button class=" nextbtn ml-5 btn btn-outline-dark">Next Page</button>
+                            </div>
+                        </article>
+
+                        <article class="part4 bg-info mt-5 p-3 text-center">
+                            <div class="winner">
+                                <div class="iconw">
+                                    <i class="fa-solid fa-trophy"></i>
+                                </div>
+                                <div class="text">
+                                    
+                                </div>
+                            </div>
+                            <div class="winbutton mt-5">
+                                <button class="quit btn btn-outline-light">Quite</button>
+                                <!-- <button class="replay btn btn-outline-dark ml-2">Replay</button> -->
+                            </div>
+                        </article>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
